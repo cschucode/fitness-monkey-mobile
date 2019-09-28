@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "postinstall": "npx jetify",
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
