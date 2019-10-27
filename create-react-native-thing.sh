@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# example use: ./create-react-native-thing.sh screen MyNewScreen
+# example use: ./create-react-native-thing.sh component MyNewComponent
+
 cat > $1s/$2.js <<- EOM
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
