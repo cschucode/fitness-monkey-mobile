@@ -1,10 +1,16 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet, Text} from 'react-native';
+import {SafeAreaView, StyleSheet, Text, Button} from 'react-native';
 
 const App = () => {
     return (
         <SafeAreaView>
             <Text style={styles.sectionTitle}>Hello world!</Text>
+            <Button
+                title="sign in with google"
+                onPress={() => {
+                    console.log('pressed!');
+                }}
+            />
         </SafeAreaView>
     );
 };

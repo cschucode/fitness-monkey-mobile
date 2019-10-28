@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "377673982555",
+    "firebase_url": "https://fitmo-893bc.firebaseio.com",
+    "project_id": "fitmo-893bc",
+    "storage_bucket": "fitmo-893bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377673982555:android:ae46102a44c1860496d57e",
+        "android_client_info": {
+          "package_name": "com.fitnessmonkey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377673982555-guju3e7s0q4r10cmiluqadvl8nkesq6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgrX_n_W2Jm-Zr9xMe49wQyYCbW5Lgo30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377673982555-guju3e7s0q4r10cmiluqadvl8nkesq6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
