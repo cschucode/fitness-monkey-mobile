@@ -12,5 +12,6 @@ module.exports = {
                 classPropertiesAllowed: true,
             },
         ],
+        'prefer-template': ['error'],
     },
 };

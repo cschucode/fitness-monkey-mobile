@@ -34,8 +34,9 @@ target 'FitnessMonkey' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod ‘Firebase/Core'
+  pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
 
   target 'FitnessMonkeyTests' do
     inherit! :search_paths
@@ -53,12 +54,4 @@ target 'FitnessMonkey-tvOS' do
     # Pods for testing
   end
 
-end
-
-post_install do |installer|
-    installer.pods_project.targets.each do |target|
-        if target.name == "React"
-            target.remove_from_project
-        end
-    end
 end
